@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "pyrightbug6542"
+version = "0.1.0"
+description = ""
+authors = []
+
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+django = ">=4.2,<4.3"
+django-types = "^0.16.0"
+pyright = "==1.1.337"
