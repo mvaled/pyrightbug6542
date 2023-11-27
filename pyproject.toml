@@ -8,5 +8,5 @@ authors = []
 [tool.poetry.dependencies]
 python = ">=3.10,<3.12"
 django = ">=4.2,<4.3"
-django-types = "^0.16.0"
+django-types = "^0.19"
 pyright = "==1.1.337"

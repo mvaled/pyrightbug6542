@@ -39,14 +39,17 @@ bcrypt = ["bcrypt"]
 
 [[package]]
 name = "django-types"
-version = "0.16.0"
+version = "0.19.1"
 description = "Type stubs for Django"
 optional = false
 python-versions = ">=3.7,<4.0"
 files = [
-    {file = "django-types-0.16.0.tar.gz", hash = "sha256:29d23af8b88fa1579b47418e92ffc1d89bfbdf11eab64d2ae006fa09e54fed9a"},
-    {file = "django_types-0.16.0-py3-none-any.whl", hash = "sha256:9df4e1936f304f309a59f4cee19a607e151282fc0d97238833a382fafc5052c8"},
+    {file = "django_types-0.19.1-py3-none-any.whl", hash = "sha256:b3f529de17f6374d41ca67232aa01330c531bbbaa3ac4097896f31ac33c96c30"},
+    {file = "django_types-0.19.1.tar.gz", hash = "sha256:5ae7988612cf6fbc357b018bbc3b3a878b65e04275cc46e0d35d66a708daff12"},
 ]
+
+[package.dependencies]
+types-psycopg2 = ">=2.9.21.13"
 
 [[package]]
 name = "nodeenv"
@@ -113,6 +116,17 @@ doc = ["sphinx"]
 test = ["pytest", "pytest-cov"]
 
 [[package]]
+name = "types-psycopg2"
+version = "2.9.21.17"
+description = "Typing stubs for psycopg2"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "types-psycopg2-2.9.21.17.tar.gz", hash = "sha256:dc84bef202eae39e59961c1174f4d3845f06f62d2704733b1be710c3be0c3b29"},
+    {file = "types_psycopg2-2.9.21.17-py3-none-any.whl", hash = "sha256:635a5ee8fd11ec6a056494ca6533ab66475d967df9a4f8d4f8209887ba61ad2c"},
+]
+
+[[package]]
 name = "typing-extensions"
 version = "4.8.0"
 description = "Backported and Experimental Type Hints for Python 3.8+"
@@ -137,4 +151,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.12"
-content-hash = "99eb1fec7d7004ce013fbb77f5515069ee84b0e980fc966d4ac83499dd50b5ca"
+content-hash = "0d82f874cc8da001c57ee9bf1cd1d132cf1b560193a421ddc5879190c9343ebc"
